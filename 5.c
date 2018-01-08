@@ -17,6 +17,12 @@ printf("c is big");
 }
 else
 {
-printf("b is big");
+  if(b>c)
+  {
+    printf("b is big");
+  }
+  else
+{
+printf("c is big");
 }
 }
