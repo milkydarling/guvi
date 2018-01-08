@@ -10,6 +10,6 @@ pritnf("the given character is vowel");
 }
 else
 {
-printf("the given character is odd");
+printf("the given character is consonant");
 }
 }
