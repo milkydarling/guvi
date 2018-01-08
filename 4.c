@@ -4,7 +4,7 @@ void main()
 char m;
 printf("enter a character");
 scanf("%c",&m);
-if('z'||'x'||'c'||'v'||'b'||'n'||'m'||'a'||'s'||'d'||'f'||'g'||'h'||'j'||'k'||'l'||'q'||'w'||'e'||'r'||'t'||'y'||'u'||'i'||'o'||'p')';
+if((m>'a'&&m<'z')||(m>'A'&&m<'Z'));
 {
 printf("the character is alphabet");
 }
