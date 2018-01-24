@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int n,a[100],i;
+int n,a[100],i,temp1,temp2;
 printf("enter n value");
 scanf("%d",&n);
 for(i=0i<100;i++)
@@ -12,11 +12,24 @@ for(i=0;i<n;i++)
 {
 if(a[i]<a[i+1)
 {
-printf("the large number is %d",a[i+1];
+  temp1=a[i+1];
 }
 else
 {
-printf("the lowest number is %d",a[i]);
+temp1=a[i];
 }
 }
+          printf("%d",temp1);
+          for(i=0;i<n;i++)
+          {
+            if(a[i]<a[i+1])
+            {
+              temp2=a[i];
+            }
+            else
+            {
+              temp2=a[i+1];
+            }
+          }
+          printf("%d",temp2);
 }
